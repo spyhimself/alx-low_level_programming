@@ -3,33 +3,23 @@
 /**
  * main - Entry point
  *
- * Description: Prints all possible combinations of single-digit numbers
- *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int i, j;
+    int n;
 
-    for (i = 0; i < 10; i++)
+    for (n = 0; n < 10; n++)
     {
-        for (j = i; j < 10; j++)
-        {
-            if (i != j)
-            {
-                putchar(i + '0');
-                putchar(j + '0');
+        putchar(n + '0');
 
-                if (i != 8 || j != 9)
-                {
-                    putchar(',');
-                    putchar(' ');
-                }
-            }
+        if (n != 9)
+        {
+            putchar(',');
+            putchar(' ');
         }
     }
 
     putchar('\n');
-
     return (0);
 }
