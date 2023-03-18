@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - Entry Point
+ *
+ * Description: A C program
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 	int i, j, k;
