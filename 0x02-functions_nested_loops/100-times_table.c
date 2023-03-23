@@ -8,9 +8,11 @@
  */
 void print_times_table(int n)
 {
+	int i;
+
 	if (n < 0 || n > 15)
 		return;
 
-	for (int i = 0; i <= 10; i++)
+	for (i = 0; i <= 10; i++)
 		printf("%d x %d = %d\n", i, n, i * n);
 }
