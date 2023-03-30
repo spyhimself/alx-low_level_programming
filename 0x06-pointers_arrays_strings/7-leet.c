@@ -9,7 +9,8 @@
 char *leet(char *str)
 {
 	int i, j;
-	char leet_map[5][2] = {{'a', 'A'}, {'e', 'E'}, {'o', 'O'}, {'t', 'T'}, {'l', 'L'}};
+	char leet_map[5][2] = {{'a', 'A'}, {'e', 'E'}, {'o', 'O'},
+				{'t', 'T'}, {'l', 'L'}};
 	char leet_replacement[5] = {'4', '3', '0', '7', '1'};
 
 	for (i = 0; str[i] != '\0'; i++)
