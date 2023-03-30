@@ -1,7 +1,5 @@
 #include <stdio.h>
-/**
- * func main
- */
+
 int main(void)
 {
   int n;
