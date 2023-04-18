@@ -1,5 +1,5 @@
-#ifndef dog.h
-#define dog.h
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - A dog's attributes
@@ -15,4 +15,4 @@ typedef struct dog
 	char *owner;
 } dog_t;
 
-#endif
+#endif /* DOG_H */
